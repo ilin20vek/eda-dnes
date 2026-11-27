@@ -133,7 +133,6 @@ p{margin:0 0 16px;max-width:38em}
  .krupno{font-size:26px}
  .step{grid-template-columns:1fr;gap:4px}
  .sn{font-size:72px}
- .rol{flex-direction:column} .rol a.kadr{width:100%;height:280px} .rol a.kadr img{object-position:center 20%}
  .rol .opis b{font-size:24px}
  .prosm i{font-size:26px}
  .dve b{font-size:52px}
@@ -145,6 +144,7 @@ a.ist,p a,figcaption a,.snoska a,.prizyv a{color:var(--akcent);text-decoration:u
 a.ist:hover,p a:hover{text-decoration-thickness:2px}
 .side a.ist{color:inherit;font-size:16px;display:inline-block;margin-top:8px}
 .rol a.kadr{width:44%;flex:none;display:block}.rol a.kadr img{width:100%;height:100%}
+@media (max-width:640px){.rol{flex-direction:column}.rol a.kadr{width:100%;height:280px}.rol a.kadr img{object-position:center 20%}}
 .rol .opis b a{color:inherit;text-decoration:none}.rol .opis b a:hover{color:var(--akcent)}
 .dokaz a{display:block;cursor:zoom-in}
 .dve a{text-decoration:none;color:inherit}.dve a span{text-decoration:underline;text-underline-offset:3px}
